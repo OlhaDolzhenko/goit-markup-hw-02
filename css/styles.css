@@ -108,10 +108,6 @@ body {
 /*  ============ END HERO  ============ */
 
 /*  ============ ADVANTAGES  ============ */
-.advantages-title {
-  color: #ffffff;
-}
-
 .advantages-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -152,10 +148,6 @@ body {
 /*  ============ END MASTERS  ============ */
 
 /*  ============ PORTFOLIO PROJECTS  ============ */
-.projects-title {
-  color: var(--title-dark-theme-color);
-}
-
 .projects-btn {
   font-weight: 500;
   font-size: 16px;
@@ -185,6 +177,7 @@ body {
 }
 /*  ============ END PORTFOLIO PROJECTS  ============ */
 
+/*  ============ FOOTER  ============ */
 .footer {
   background-color: var(--background-dark-theme);
 }
@@ -215,3 +208,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-dark-theme-color);
 }
+/*  ============ END FOOTER  ============ */
