@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -26,7 +30,7 @@
             <a class="navigation-list-link link" href="./index.html">Студия</a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./portfolio.html"
+            <a class="navigation-list-link link current" href="./portfolio.html"
               >Портфолио</a
             >
           </li>
@@ -51,63 +55,138 @@
       </address>
     </header>
     <main>
+      <!-- PROJECTS -->
       <section>
-        <h1>Наши проекты</h1>
+        <h1 class="projects-title">Наши проекты</h1>
         <div>
-          <ul>
-            <li><button>Все</button></li>
-            <li><button>Веб-сайты</button></li>
-            <li><button>Приложения</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
+          <ul class="projects-btn-list list">
+            <li><button class="projects-btn" type="button">Все</button></li>
+            <li>
+              <button class="projects-btn" type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="projects-btn" type="button">Приложения</button>
+            </li>
+            <li><button class="projects-btn" type="button">Дизайн</button></li>
+            <li>
+              <button class="projects-btn" type="button">Маркетинг</button>
+            </li>
           </ul>
         </div>
         <div>
-          <ul>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+          <ul class="projects-list list">
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/technokriak.jpg"
+                alt="Ноутбук с открытой страницей в Интернете"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">Технокряк</h2>
+              <p class="projects-description">Веб-сайт</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/poster-new-orlean-vs-golden-star.jpg"
+                alt="Два баскетболиста с мячом"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="projects-description">Дизайн</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/restaurant-seafood.jpg"
+                alt="Логотип ресторана Seafood"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
+              <p class="projects-description">Приложение</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/project-prime.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Проект <span lang="en">Prime</span>
+              </h2>
+              <p class="projects-description">Маркетинг</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/project-boxes.jpg"
+                alt="Две коробки"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Проект <span lang="en">Boxes</span>
+              </h2>
+              <p class="projects-description">Приложение</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/inspiration-has-no-borders.jpg"
+                alt="Экран монитора"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                <span lang="en">Inspiration has no Borders</span>
+              </h2>
+              <p class="projects-description">Веб-сайт</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/izdanie-limited-edition.jpg"
+                alt="Открытая книга"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Издание <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="projects-description">Дизайн</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/project-lab.jpg"
+                alt="Этикетка"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle">
+                Проект <span lang="en">LAB</span>
+              </h2>
+              <p class="projects-description">Маркетинг</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+            <li class="projects-list-item">
+              <img
+                class="projects-img"
+                src="./images/portfolio-projects/growing-business.jpg"
+                alt="Ноутбук, за которым работают"
+                width="370"
+                height="294"
+              />
+              <h2 class="projects-subtitle" lang="en">Growing Business</h2>
+              <p class="projects-description">Приложение</p>
             </li>
           </ul>
         </div>

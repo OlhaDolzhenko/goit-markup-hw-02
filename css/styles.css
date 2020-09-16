@@ -14,9 +14,7 @@ body {
   font-family: var(--main-font);
   font-style: normal;
 }
-.header-address {
-  font-style: normal;
-}
+
 .list {
   list-style: none;
 }
@@ -24,6 +22,19 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+
+/*  ============ COMPONENTS  ============ */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+/*  ============ END COMPONENTS  ============ */
+
+/*  ============ HEADER  ============ */
 .logo {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -46,6 +57,10 @@ body {
   color: var(--title-light-theme-color);
 }
 
+.navigation-list-link.current {
+  color: var(--accent-color);
+}
+
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-tel-link:hover,
@@ -57,13 +72,16 @@ body {
 
 .header-mail,
 .header-tel-link {
+  font-style: normal
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-light-theme-color);
 }
+/*  ============ END HEADER  ============ */
 
+/*  ============ HERO  ============ */
 .hero {
   background-color: var(--background-dark-theme);
 }
@@ -77,15 +95,19 @@ body {
   color: var(--title-dark-theme-color);
 }
 
-.button {
+.hero-btn {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color);
 }
+/*  ============ END HERO  ============ */
 
+/*  ============ ADVANTAGES  ============ */
 .advantages-title {
   color: #ffffff;
 }
@@ -106,17 +128,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-light-theme-color);
 }
+/*  ============ END ADVANTAGES  ============ */
 
-.activities-title,
-.masters-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-light-theme-color);
-}
+/*  ============ ACTIVITIES  ============ */
+/*  ============ END ACTIVITIES  ============ */
 
+/*  ============ MASTERS  ============ */
 .masters-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -132,12 +149,48 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-light-theme-color);
 }
+/*  ============ END MASTERS  ============ */
+
+/*  ============ PORTFOLIO PROJECTS  ============ */
+.projects-title {
+  color: var(--title-dark-theme-color);
+}
+
+.projects-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color);  
+}
+
+.projects-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-light-theme-color);
+}
+.projects-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-light-theme-color);
+}
+/*  ============ END PORTFOLIO PROJECTS  ============ */
 
 .footer {
   background-color: var(--background-dark-theme);
 }
 
 .footer-logo {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
